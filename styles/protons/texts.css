@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+.txt{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt--uppercase{
+    text-transform: uppercase;
+}
+
+.txt--center{
+    text-align: center;
+}
+
+.txt--start{
+    text-align: start;
+}
+
+/*size*/
+.txt--s{
+    font-size: 0.8rem;
+}
+
+.txt--m{
+    font-size: 1rem;
+}
+
+.txt--l{
+    font-size: 1.4rem;
+}
+
+.txt--xl{
+    font-size: 2rem;
+}
+
+
+/*weight*/
+.txt--light{
+    font-weight: 300;
+}
+
+.txt--medium{
+    font-weight: 500;
+}
+
+.txt--bold{
+    font-weight: 700;
+}
+
+.txt--extrabold{
+    font-weight: 900;
+}

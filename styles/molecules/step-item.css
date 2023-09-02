@@ -1,0 +1,18 @@
+.step-item{
+    width: 12rem;
+}
+
+
+.step-item > h2{
+    margin-bottom: 0.6rem;
+}
+
+
+.step-item > *{
+    margin: 0.4rem 0;
+}
+
+
+@media only screen and (min-width: 770px){
+
+}

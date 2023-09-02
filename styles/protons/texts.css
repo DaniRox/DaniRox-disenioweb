@@ -2,6 +2,7 @@
 
 .txt{
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.2rem;
 }
 
 .txt--uppercase{
@@ -18,15 +19,15 @@
 
 /*size*/
 .txt--s{
-    font-size: 0.8rem;
-}
-
-.txt--m{
     font-size: 1rem;
 }
 
+.txt--m{
+    font-size: 1.2rem;
+}
+
 .txt--l{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .txt--xl{

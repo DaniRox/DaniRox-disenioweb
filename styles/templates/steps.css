@@ -5,3 +5,10 @@
 .steps > h2{
     margin-bottom: 3rem;
 }
+
+
+@media only screen and (min-width: 770px){
+    .steps{
+        padding: 5rem 4rem;
+    }
+}

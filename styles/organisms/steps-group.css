@@ -9,5 +9,6 @@
     .steps-group{
         flex-direction: row;
         align-items: flex-start;
+        justify-content: center;
     }
 }

@@ -1,4 +1,8 @@
-.title-section{
-    margin-bottom: 0.6rem;
+.title{
+    margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
+.subtitle{
+    line-height: 1.5rem;
+}

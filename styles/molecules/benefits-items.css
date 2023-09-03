@@ -1,7 +1,10 @@
 .benefits-item{
-    padding: 1.5rem;
+    padding: 0 1.5rem;
 }
 
-.benefits-item > *{
-    margin: 0.4rem 0;
+
+@media only screen and (min-width: 770px){
+    .benefits-item{
+        width: 43%;
+    }
 }

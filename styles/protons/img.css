@@ -1,3 +1,11 @@
 .service-img{
     height: 100%;
 }
+
+
+@media only screen and (min-width: 1024px){
+    .service-img{
+        width: 100%;
+        height: auto;
+    }    
+}

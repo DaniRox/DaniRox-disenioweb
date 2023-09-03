@@ -1,3 +1,13 @@
-.benefits-group{
-    
+.benefits-group > *{
+    margin: 1.5rem 0;
+}
+
+
+@media only screen and (min-width: 770px){
+    .benefits-group{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

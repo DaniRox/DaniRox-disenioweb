@@ -1,0 +1,9 @@
+.textarea{
+    resize: none;
+    width: 100%;
+    border: none;
+    border-bottom: 0.12rem solid var(--color-dark);
+    background-color: transparent;
+    padding: 1rem;
+    box-sizing: border-box;
+}

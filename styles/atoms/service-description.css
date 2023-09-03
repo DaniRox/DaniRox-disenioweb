@@ -1,10 +1,14 @@
 .service-description{
-    width: 70%;
-    padding: 2rem;
+    width: 60%;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
 }
 
-.service-description > h2{
-    margin-bottom: 0.6rem;
+
+@media only screen and (min-width: 470px){
+    .service-description{
+        padding: 2rem 2rem;
+    }
 }
 
 

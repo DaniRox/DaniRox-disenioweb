@@ -1,0 +1,13 @@
+.div-service-img{
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 770px){
+    .div-service-img{
+        width: 50%;;
+    }
+}

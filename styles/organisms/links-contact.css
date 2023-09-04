@@ -1,12 +1,15 @@
 .links-contact{
     width: 100%;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 
-@media only screen and (min-width: 770px){
+@media only screen and (min-width: 1024px){
     .links-contact{
-        width: 70%;
+        width: 60%;
+        justify-content: space-between;
     }
 }

@@ -1,4 +1,5 @@
 .div-contact{
+    width: 13rem;
     display: flex;
     flex-direction: column;
 }

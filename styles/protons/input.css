@@ -3,6 +3,7 @@
     border: none;
     border-bottom: 0.12rem solid var(--color-dark);
     background-color: transparent;
-    padding: 1rem;
+    padding: 0.5rem;
     box-sizing: border-box;
+    outline: none;
 }

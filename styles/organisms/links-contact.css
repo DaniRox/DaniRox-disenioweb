@@ -1,0 +1,12 @@
+.links-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (min-width: 770px){
+    .links-contact{
+        width: 70%;
+    }
+}

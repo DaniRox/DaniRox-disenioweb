@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
 
 .txt{
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +27,7 @@
 }
 
 .txt--l{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .txt--xl{
@@ -37,7 +37,7 @@
 
 /*weight*/
 .txt--light{
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .txt--medium{

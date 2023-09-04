@@ -1,14 +1,14 @@
-.form-group{
+.contact-group{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
 @media only screen and (min-width: 1024px){
-    .form-group{
-        width: 70%;
+    .contact-group{
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
 }

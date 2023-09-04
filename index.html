@@ -10,15 +10,16 @@
     <link rel="stylesheet" href="./styles/protons/texts.css">
     <link rel="stylesheet" href="./styles/protons/icons.css">
     <link rel="stylesheet" href="./styles/protons/img.css">
+    <link rel="stylesheet" href="./styles/protons/label.css">
+    <link rel="stylesheet" href="./styles/protons/input.css">
+    <link rel="stylesheet" href="./styles/protons/textarea.css">
     <!-- atoms -->
     <link rel="stylesheet" href="./styles/atoms/btn.css">
     <link rel="stylesheet" href="./styles/atoms/service-description.css">
     <link rel="stylesheet" href="./styles/atoms/number.css">
     <link rel="stylesheet" href="./styles/atoms/titles.css">
     <link rel="stylesheet" href="./styles/atoms/div-service-img.css">
-    <link rel="stylesheet" href="./styles/atoms/label.css">
-    <link rel="stylesheet" href="./styles/atoms/input.css">
-    <link rel="stylesheet" href="./styles/atoms/textarea.css">
+    <link rel="stylesheet" href="./styles/atoms/form-item.css">
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/step-item.css">
     <link rel="stylesheet" href="./styles/molecules/benefits-items.css">
@@ -28,6 +29,7 @@
     <link rel="stylesheet" href="./styles/organisms/steps-group.css">
     <link rel="stylesheet" href="./styles/organisms/benefits-group.css">
     <link rel="stylesheet" href="./styles/organisms/services-group.css">
+    <link rel="stylesheet" href="./styles/organisms/contact-group.css">
     <!-- templates -->
     <link rel="stylesheet" href="./styles/templates/section.css">
     <link rel="stylesheet" href="./styles/templates/cta.css">
@@ -183,33 +185,40 @@
 
         </section>
 
-        <section class="section background--tertiary">
+        <section class="section section-contact background--tertiary">
 
             <h2 class="title color--dark txt txt--center txt--l txt--bold">Contáctame</h2>
 
-            <form>
+            <div class="contact-group">
 
-                <div class="form-group">
-                    <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
-                    <input class="input">
-                </div>
+                <form class="form-group">
 
-                <div class="form-group">
-                    <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
-                    <input class="input">
-                </div>
+                    <div class="form-item">
+                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
+                        <input class="input">
+                    </div>
 
-                <div class="form-group">
-                    <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
-                    <input class="input">
-                </div>
+                    <div class="form-item">
+                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
+                        <input class="input">
+                    </div>
 
-                <div class="form-group">
-                    <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
-                    <textarea class="textarea"></textarea>
-                </div>
+                    <div class="form-item">
+                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
+                        <input class="input">
+                    </div>
 
-            </form>
+                    <div class="form-item--textarea">
+                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
+                        <textarea class="textarea"></textarea>
+                    </div>
+
+                </form>
+
+                <img src="./assets/img/phone-contact.png" class="phone">
+                
+            </div>
+
 
         </section>
 

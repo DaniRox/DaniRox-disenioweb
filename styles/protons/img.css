@@ -2,10 +2,33 @@
     height: 100%;
 }
 
+.phone{
+    width: 14rem;
+    position: absolute;
+    z-index: 1;
+    right: 2rem;
+}
+
+
+@media only screen and (min-width: 470px){
+    .phone{
+        width: 17rem;
+    }  
+}
+
+@media only screen and (min-width: 770px){
+    .phone{
+        width: 19rem;
+    }    
+}
 
 @media only screen and (min-width: 1024px){
     .service-img{
         width: 100%;
         height: auto;
-    }    
+    }
+    
+    .phone{
+        width: 22rem;
+    }
 }

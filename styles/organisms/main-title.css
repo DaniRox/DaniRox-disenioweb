@@ -1,7 +1,7 @@
 .main-title{
     width: 22rem;
     left: 0;
-    top: 20rem;
+    top: 18rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 
 @media only screen and (min-width: 770px){
     .main-title{
-        padding: 0 2rem;
+        padding: 0 4rem;
     }
 }
 

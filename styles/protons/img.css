@@ -13,6 +13,16 @@
     width: 9rem;
 }
 
+.logo-header {
+    width: 7rem;
+}
+
+.img-background{
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
 
 @media only screen and (min-width: 470px){
     .phone{

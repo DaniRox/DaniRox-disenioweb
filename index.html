@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/protons/label.css">
     <link rel="stylesheet" href="./styles/protons/input.css">
     <link rel="stylesheet" href="./styles/protons/textarea.css">
+    <link rel="stylesheet" href="./styles/protons/links.css">
     <!-- atoms -->
     <link rel="stylesheet" href="./styles/atoms/btn.css">
     <link rel="stylesheet" href="./styles/atoms/service-description.css">
@@ -29,6 +30,8 @@
     <link rel="stylesheet" href="./styles/molecules/card-service.css">
     <link rel="stylesheet" href="./styles/molecules/form-group.css">
     <link rel="stylesheet" href="./styles/molecules/div-contact.css">
+    <link rel="stylesheet" href="./styles/molecules/menu.css">
+    <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/steps-group.css">
     <link rel="stylesheet" href="./styles/organisms/benefits-group.css">
@@ -36,23 +39,50 @@
     <link rel="stylesheet" href="./styles/organisms/contact-group.css">
     <link rel="stylesheet" href="./styles/organisms/links-contact.css">
     <link rel="stylesheet" href="./styles/organisms/div-footer.css">
+    <link rel="stylesheet" href="./styles/organisms/nav.css">
+    <link rel="stylesheet" href="./styles/organisms/main-title.css">
     <!-- templates -->
     <link rel="stylesheet" href="./styles/templates/section.css">
     <link rel="stylesheet" href="./styles/templates/cta.css">
     <link rel="stylesheet" href="./styles/templates/footer.css">
+    <link rel="stylesheet" href="./styles/templates/header.css">
     <title>Document</title>
 </head>
 <body>
-    <button class="btn txt txt--m txt--extrabold color--clear txt--start txt--uppercase background--dark">¡Diseñemos tu futuro en la web juntos!</button>
+    
+    <header id="inicio">
+        
+        <img src="assets/img/img-background.png" class="img-background">
 
+        <nav class="nav">
+   
+            <div class="menu">
+    
+                <img src="./assets/icons/logo.png" alt="logo DaniRox" class="logo-header">
+        
+                <img src="./assets/icons/menu-icon.png" alt="icono menú" class="btn-menu" id="btn-menu-nav">
+                
+            </div>
+    
+            <div class="menu-nav" id="menu-nav">
+                <a href="#inicio" class="txt txt--s txt--medium txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Inicio</a>
+                <a href="#servicios" class="txt txt--s txt--medium txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Servicios</a>
+                <a href="#proceso" class="txt txt--s txt--medium txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Proceso</a>
+                <a href="#contacto" class="txt txt--s txt--medium txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Contacto</a>
+            </div>
+        
+        </nav>
 
-    <header>
+        <div class="main-title">
+            <h1 class="txt txt--xl txt--medium txt--uppercase color--dark title">Diseño web que refleja tu esencia</h1>
+            <button class="btn txt txt--m txt--extrabold color--clear txt--start txt--uppercase background--dark">¡Diseñemos tu futuro en la web juntos!</button>
+        </div>
 
     </header>
 
     <main>
 
-        <section class="section background--clear">
+        <section class="section background--clear" id="servicios">
 
             <h2 class="title color--dark txt txt--center txt--xl txt--bold">Algunos beneficios de  tener tu página web</h2>
 
@@ -153,7 +183,7 @@
 
         </section>
 
-        <section class="section background--dark">
+        <section class="section background--dark" id="proceso">
 
             <h2 class="title color--clear txt txt--center txt--xl txt--bold">Metodologia de trabajo</h2>
 
@@ -192,7 +222,7 @@
 
         </section>
 
-        <section class="section section-contact background--tertiary">
+        <section class="section section-contact background--tertiary" id="contacto">
 
             <h2 class="title color--dark txt txt--center txt--xl txt--bold">Contáctame</h2>
 
@@ -254,6 +284,8 @@
         <div class="txt txt--s txt--medium color--clear txt--center">Diseño y Desarrollo por DaniRox</div>
         
     </footer>
+
+    <script src="./js/display-menu.js"></script>
 
 </body>
 </html>

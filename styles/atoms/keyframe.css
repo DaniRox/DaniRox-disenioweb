@@ -17,6 +17,6 @@
     animation-timeline: --body;
     animation-name: show;
 
-    animation-range: entry 1% cover 50%;
+    animation-range: entry 1% cover 40%;
     animation-fill-move: both;
 }

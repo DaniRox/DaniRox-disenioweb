@@ -20,20 +20,29 @@
 .img-background{
     height: 100%;
     width: auto;
-    overflow: hidden;
 }
 
 
 @media only screen and (min-width: 470px){
     .phone{
         width: 18rem;
-    }  
+    }
+    
+    .img-background{
+        height: 100%;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 770px){
     .phone{
         width: 21rem;
-    }    
+    }
+    
+    .img-background{
+        height: 100%;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -46,5 +55,10 @@
         width: 25rem;
         position: relative;
         right: 0rem;
+    }
+
+    .img-background{
+        width: 100%;
+        height: auto;
     }
 }

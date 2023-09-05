@@ -10,7 +10,7 @@
     }
 }
 
-.title, .benefits-item, .txt--cta, .card-service, .step-item, .form-item, .form-item--textarea{
+.benefits-item, .card-service, .step-item, .form-item, .form-item--textarea{
     view-timeline-name: --body;
     view-timeline-axis: block;
 

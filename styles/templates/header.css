@@ -8,8 +8,8 @@ header{
 }
 
 
-@media only screen and (min-width: 470){
+@media only screen and (min-width: 470px){
     header{
-        height: 44rem;
+        height: 45rem;
     }
 }

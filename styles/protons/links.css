@@ -4,5 +4,5 @@
 }
 
 .link-menu:hover{
-    transform: scale(1.1, 1.1);
+    color: var(--color-secondary);
 }

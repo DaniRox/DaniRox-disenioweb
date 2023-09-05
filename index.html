@@ -67,7 +67,7 @@
             <div class="menu-nav background--dark" id="menu-nav">
                 <a href="#inicio" class="txt txt--s txt--bold txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Inicio</a>
                 <a href="#servicios" class="txt txt--s txt--bold txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Servicios</a>
-                <a href="#proceso" class="txt txt--s txt--bold txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Proceso</a>
+                <a href="#proceso" class="txt txt--s txt--bold txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Metodología</a>
                 <a href="#contacto" class="txt txt--s txt--bold txt--uppercase color--clear link-menu" onclick="displayMenuDesktop()">Contacto</a>
             </div>
         
@@ -179,38 +179,38 @@
 
         <section class="cta background--secondary">
 
-            <span class="txt txt--cta txt--uppercase color--clear txt--extrabold txt--l txt--center">Descubrí como puede lucir tu futuro en la web</span>
+            <span class="txt txt--cta txt--uppercase color--clear txt--extrabold txt--l txt--center">¿Listo para diseñar tu futuro en línea?</span>
 
         </section>
 
         <section class="section background--dark" id="proceso">
 
-            <h2 class="title color--clear txt txt--center txt--xl txt--bold">Metodologia de trabajo</h2>
+            <h2 class="title color--clear txt txt--center txt--xl txt--bold">Metodología de trabajo</h2>
 
             <ul class="steps-group">
                 <li class="step-item">
                     <div class="number color--dark txt txt--xl txt--bold background--tertiary">1</div>
                     <h3 class="color--clear txt txt--center txt--l txt--medium subtitle">Planificación y Estrategia:</h3>
-                    <p class="color--clear txt txt--center txt--m txt--light">Comprendemos tu visión, marca y objetivos para planificar el diseño web.</p>
+                    <p class="color--clear txt txt--center txt--m txt--light">Analizo tu visión, marca y objetivos para planificar el diseño web.</p>
                 </li>
 
 
                 <li class="step-item">
                     <div class="number color--dark txt txt--xl txt--bold background--tertiary">2</div>
                     <h3 class="color--clear txt txt--center txt--l txt--medium subtitle">Diseño y Desarrollo:</h3>
-                    <p class="color--clear txt txt--center txt--m txt--light">Diseñamos el sitio web con enfoque en la experiencia del usuario y funcionalidad.</p>
+                    <p class="color--clear txt txt--center txt--m txt--light">Diseño el sitio web con enfoque en la experiencia del usuario y funcionalidad.</p>
                 </li>
 
                 <li class="step-item">
                     <div class="number color--dark txt txt--xl txt--bold background--tertiary">3</div>
                     <h3 class="color--clear txt txt--center txt--l txt--medium subtitle">Optimización y Lanzamiento:</h3>
-                    <p class="color--clear txt txt--center txt--m txt--light">Aseguramos que tu sitio esté listo para el mundo en línea.</p>
+                    <p class="color--clear txt txt--center txt--m txt--light">Aseguro que tu sitio esté listo para el mundo en línea.</p>
                 </li>
 
                 <li class="step-item">
                     <div class="number color--dark txt txt--xl txt--bold background--tertiary">4</div>
                     <h3 class="color--clear txt txt--center txt--l txt--medium subtitle">Soporte Continuo y Evolución:</h3>
-                    <p class="color--clear txt txt--center txt--m txt--light">Ofrecemos soporte y mantenimiento mientras evolucionamos tu presencia en línea.</p>
+                    <p class="color--clear txt txt--center txt--m txt--light">Te ofrezco soporte y mantenimiento mientras evolucionamos tu presencia en línea.</p>
                 </li>
             </ul>
 
@@ -218,31 +218,31 @@
 
         <section class="cta background--secondary">
 
-            <span class="txt txt--cta txt--uppercase color--clear txt--extrabold txt--l txt--center">Descubrí como puede lucir tu futuro en la web</span>
+            <span class="txt txt--cta txt--uppercase color--clear txt--extrabold txt--l txt--center">Solicita tu Diseño Personalizado</span>
 
         </section>
 
         <section class="section section-contact background--tertiary" id="contacto">
 
-            <h2 class="title color--dark txt txt--center txt--xl txt--bold">Contáctame</h2>
+            <h2 class="title color--dark txt txt--center txt--xl txt--bold">Contactame</h2>
 
             <div class="contact-group">
 
-                <form class="form-group">
+                <form class="form-group" action="" method="POST">
 
                     <div class="form-item">
-                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
-                        <input class="input txt txt--m txt--medium color--dark">
+                        <label for="nombre" class="label txt txt--s txt--bold color--dark txt--uppercase">Nombre</label>
+                        <input name="nombre" id="nombre" type="text" autocomplete="on" required maxlength="50"   class="input txt txt--m txt--medium color--dark">
                     </div>
 
                     <div class="form-item">
-                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Email</label>
-                        <input class="input txt txt--m txt--medium color--dark">
+                        <label for="email" class="label txt txt--s txt--bold color--dark txt--uppercase">Email</label>
+                        <input name="email" id="email" type="email" autocomplete="on"  class="input txt txt--m txt--medium color--dark">
                     </div>
 
                     <div class="form-item--textarea">
-                        <label class="label txt txt--s txt--bold color--dark txt--uppercase">Mensaje</label>
-                        <textarea class="textarea txt txt--m txt--medium color--dark"></textarea>
+                        <label for="mensaje" class="label txt txt--s txt--bold color--dark txt--uppercase">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" required  maxlength="500" class="textarea txt txt--m txt--medium color--dark"></textarea>
                     </div>
 
                 </form>

@@ -11,3 +11,8 @@
  .btn:hover{
     transform: scale(1.05, 1.05);
  }
+
+ .btn-card-submit{
+    width: auto;
+    margin-top: 1.5rem;
+ }

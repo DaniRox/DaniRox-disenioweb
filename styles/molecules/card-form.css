@@ -1,0 +1,33 @@
+.card-form{
+    width: 80%;
+    max-width: 25rem;
+    padding: 2rem;
+    margin-top: 15vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 470px){
+    .card-form{
+        margin-top: 17vh;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .card-form{
+        width: 25rem;
+        padding: 3rem;
+        margin-top: 20vh;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .card-form{
+        width: 25rem;
+        padding: 3rem;
+    }
+}

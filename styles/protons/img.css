@@ -15,6 +15,12 @@
     margin-top: 3rem;
 }
 
+.img-background-form-submit{
+    z-index: -1;
+    height: 100%;
+    width: auto;
+}
+
 
 @media only screen and (min-width: 470px){
     .phone{
@@ -24,6 +30,11 @@
     .img-background{
         height: 100%;
         width: auto;
+    }
+
+    .img-background-form-submit{
+        width: 100%;
+        height: auto;
     }
 }
 

@@ -21,16 +21,6 @@
     text-shadow: 0px 0px 6px rgba(35,37,56,0.6);
 }
 
-.txt--cta{
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.txt--cta:hover{
-    transform: scale(1.02, 1.02);
-    text-shadow: 0px 0px 9px rgba(35,37,56,0.8);
-}
-
 /*size*/
 .txt--s{
     font-size: 0.8rem;

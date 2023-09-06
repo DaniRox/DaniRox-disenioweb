@@ -43,11 +43,6 @@
     }
   }
   
-  .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-  }
-  
   .animated {
     view-timeline-name: --body;
     view-timeline-axis: block;

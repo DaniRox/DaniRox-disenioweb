@@ -20,3 +20,41 @@
     animation-range: entry 1% cover 40%;
     animation-fill-move: both;
 }
+
+
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  
+  .animated {
+    view-timeline-name: --body;
+    view-timeline-axis: block;
+
+    animation-timeline: --body;
+    animation-name: fadeIn;
+
+    animation-range: entry 1% cover 55%;
+    animation-fill-move: both;
+  }

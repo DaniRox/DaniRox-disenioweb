@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /formulario/
+Noindex: /formulario/

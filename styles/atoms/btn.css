@@ -9,7 +9,8 @@
 }
 
  .btn:hover{
-    transform: scale(1.05, 1.05);
+   background-color: var(--color-dark);
+   color: var(--color-tertiary);
  }
 
  .btn-card-submit{

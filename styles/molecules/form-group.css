@@ -7,7 +7,7 @@
 
 @media only screen and (min-width: 1024px){
     .form-group{
-        width: 55%;
+        width: 45%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
